@@ -1,0 +1,81 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Backend: bootRun",
+      "type": "shell",
+      "command": "./gradlew",
+      "args": ["bootRun"],
+      "windows": {
+        "command": ".\\gradlew.bat",
+        "args": ["bootRun"]
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/backend"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Frontend: dev",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "dev"],
+      "windows": {
+        "command": "npm.cmd",
+        "args": ["run", "dev"]
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/frontend"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Dev: Start All (Backend + Frontend)",
+      "dependsOn": ["Backend: bootRun", "Frontend: dev"],
+      "dependsOrder": "parallel",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Backend: build",
+      "type": "shell",
+      "command": "./gradlew",
+      "args": ["build"],
+      "windows": {
+        "command": ".\\gradlew.bat",
+        "args": ["build"]
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/backend"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Frontend: build",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "build"],
+      "windows": {
+        "command": "npm.cmd",
+        "args": ["run", "build"]
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/frontend"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

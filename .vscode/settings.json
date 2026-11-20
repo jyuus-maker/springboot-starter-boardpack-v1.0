@@ -1,0 +1,16 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.import.gradle.enabled": true,
+  "java.import.gradle.wrapper.enabled": true,
+  "typescript.tsdk": "frontend/node_modules/typescript/lib",
+  "files.exclude": {
+    "**/.gradle": true,
+    "**/build": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "backend/build": true,
+    "backend/.gradle": true
+  }
+}

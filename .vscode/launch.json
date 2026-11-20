@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot - Backend (Debug)",
+      "request": "launch",
+      "mainClass": "com.tinyarcade.BackendApplication",
+      "projectName": "backend",
+      "cwd": "${workspaceFolder}/backend"
+    }
+  ]
+}

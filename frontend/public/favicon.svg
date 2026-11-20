@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Orange game controller favicon">
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="0.15" y2="1">
+      <stop offset="0" stop-color="#ffae09"/>
+      <stop offset="0.48" stop-color="#ff8e00"/>
+      <stop offset="1" stop-color="#ff6900"/>
+    </linearGradient>
+    <linearGradient id="pad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161616"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="142" fill="url(#orange)"/>
+  <path d="M 176 158 C 149 152 131 167 117 191 C 100 221 84 261 77 293 C 70 325 76 353 98 362 C 119 371 137 357 155 334 L 184 304 C 191 296 198 292 215 292 H 297 C 314 292 321 296 328 304 L 357 334 C 375 357 393 371 414 362 C 436 353 442 325 435 293 C 428 261 412 221 395 191 C 381 167 363 152 336 158 C 326 160 318 163 311 168 H 201 C 194 163 186 160 176 158 Z" fill="url(#pad)"/>
+  <path d="M 166 198 C 166 192 171 187 177 187 H 183 C 189 187 194 192 194 198 V 212 H 208 C 214 212 219 217 219 223 V 229 C 219 235 214 240 208 240 H 194 V 254 C 194 260 189 265 183 265 H 177 C 171 265 166 260 166 254 V 240 H 152 C 146 240 141 235 141 229 V 223 C 141 217 146 212 152 212 H 166 Z" fill="#636363"/>
+  <circle cx="337" cy="199" r="13" fill="#ffc21b"/>
+  <circle cx="311" cy="226" r="13" fill="#35aaff"/>
+  <circle cx="363" cy="226" r="13" fill="#47e419"/>
+  <circle cx="337" cy="252" r="13" fill="#ff4248"/>
+</svg>
